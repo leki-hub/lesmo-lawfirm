@@ -8,11 +8,15 @@ import 'react-datepicker/dist/react-datepicker.css';
 const Appointment = () => {
 
     const [selectedDate, setSelectedDate] = useState(null);
-    // const [selectedTime, setSelectedTime] = useState(null);
+    const [selectedTime, setSelectedTime] = useState(null);
   
     const handleDateChange = date => {
       setSelectedDate(date);
     }
+    const handleTimeChange = time => {
+        setSelectedTime(time);
+      }
+
 
 
   return (
@@ -41,16 +45,21 @@ const Appointment = () => {
                                             className="form-control border-0 p-4"
                                          placeholderText="Select Date"
                                              />
-                                            {/* <div className="date" id="date" data-target-input="nearest">
-                                                <input type="text" className="form-control border-0 p-4 datetimepicker-input" placeholder="Select Date" data-target="#date" data-toggle="datetimepicker"/>
-                                            </div> */}
                                         </div>
                                     </div>
                                     <div className="col-6">
                                         <div className="form-group">
-                                            <div className="time" id="time" data-target-input="nearest">
-                                                <input type="text" className="form-control border-0 p-4 datetimepicker-input" placeholder="Select Time" data-target="#time" data-toggle="datetimepicker"/>
-                                            </div>
+                                        <DatePicker
+                                            selected={selectedTime}
+                                             onChange={handleTimeChange}
+                                           showTimeSelect
+                                           showTimeSelectOnly
+                                            timeIntervals={15}
+                                            timeCaption="Time"
+                                             dateFormat="h:mm aa"
+                                            className="form-control border-0 p-4"
+                                            placeholderText="Select Time"
+                                             />
                                         </div>
                                     </div>
                                 </div>
