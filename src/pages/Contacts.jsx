@@ -43,7 +43,7 @@ const Contacts = () => {
                 <form
                   name="sentMessage"
                   id="contactForm"
-                  novalidate="novalidate"
+                  noValidate="novalidate"
                 >
                   <div className="form-row">
                     <div className="col-sm-6 control-group">
