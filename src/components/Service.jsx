@@ -43,7 +43,7 @@ const ServiceCarousel = () => {
               More Services
             </a>
           </div>
-          <div className="col-lg-9 pt-5 pt-lg-0">
+          <div className="col-lg-9 pt-5 pt-lg-0 bg-primary ">
             <Slider {...settings}>
               <div className="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
                 <div className="icon-box bg-secondary text-primary mt-2 mb-4">
