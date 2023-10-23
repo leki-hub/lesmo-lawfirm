@@ -3,9 +3,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Practice from "./pages/Practice";
-import Attorneys from "./pages/Attorneys";
 import Contacts from "./pages/Contacts";
 import Home from "./pages/Home";
+import AttorneysPage from "./pages/AttorneysPage";
 
 function App() {
   return (
@@ -13,11 +13,10 @@ function App() {
  <BrowserRouter>
  <Header/>
  <Routes>
- {/* <Route  element={<Header/>} /> */}
  <Route path="/" element={<Home/>} />
  <Route path="about" element={<About/>} />
  <Route path="practice" element={<Practice/>} />
- <Route path="attorneys" element={<Attorneys/>} />
+ <Route path="attorneys" element={<AttorneysPage/>} />
  <Route path="contact" element={<Contacts/>} />
 
  
