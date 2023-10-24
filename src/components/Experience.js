@@ -14,7 +14,8 @@ const Experience = () => {
                     <h2 className="position-relative text-center bg-white text-primary rounded p-3 mt-4 mb-4 d-none d-lg-block" style={{width: "350px", marginLeft: "-205px"}}>25 Years Experience</h2>
                     <h6 className="text-uppercase">Learn About Us</h6>
                     <h1 className="mb-4">We Provide Reliable And Effective Legal Services</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est dolor</p>
+                    <p>At <b>Lesmo Advoacates</b> we are dedicated to providing exceptional legal services with a commitment to integrity, excellence, and client-centered advocacy.</p>
+                    <p> With a team of experienced attorneys, we stand as a pillar of support for individuals, businesses, and organizations navigating the complex landscape of law.</p>
                     <a href="" className="btn btn-primary mt-2">Learn More</a>
                 </div>
             </div>
