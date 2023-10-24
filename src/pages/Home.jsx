@@ -83,12 +83,20 @@ const Home = () => {
       {/* Services End */}
 
       <Appointment />
-
-      {/* Action Start */}
+   {/* Action Start  */}
       <div className="container-fluid py-5">
-        {/* ... (rest of your Action section) */}
-      </div>
-      {/* Action End */}
+        <div className="container py-5">
+            <div className="bg-action rounded" style={{height: "500px"}}>
+                <div className="row h-100 align-items-center justify-content-center">
+                    <div className="col-lg-7 text-center">
+                        <h1 className="text-white mb-4">Let's get started. Call us now for a Free Consultation</h1>
+                        <a className="btn btn-primary py-3 px-5 mt-2" href="#">Call Us Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {/* <!-- Action End --> */}
 
       {/* Team Start */}
       <TeamAttorneys />
@@ -103,10 +111,11 @@ const Home = () => {
       {showButton && (
         <button 
           className="btn btn-secondary btn-floating"
-          style={{ position: 'fixed', bottom: '20px', right: '20px',zIndex:999 }} // Adjust the position here
+          style={{ position: 'fixed', bottom: '10px', right: '10px',zIndex:999 }} // Adjust the position here
           onClick={scrollToTop}
         >
           <i className="fa fa-arrow-up"></i>
+   
         </button>
       )}
     </div>
