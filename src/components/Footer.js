@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -54,8 +55,8 @@ const Footer = () => {
               </h1>
             </a>
             <p>
-              Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem
-              lorem sit sed elitr sed kasd et
+            We are dedicated to delivering results-driven representation while providing the
+             personalized attention and support our clients deserve.
             </p>
             <div className="d-flex justify-content-start mt-4">
               <a
@@ -89,21 +90,21 @@ const Footer = () => {
               Popular Links
             </h4>
             <div className="d-flex flex-column justify-content-start">
-              <a className="text-white mb-2" href="#">
+              <Link className="text-white mb-2" to="/">
                 <i className="fa fa-angle-right mr-2"></i>Home
-              </a>
-              <a className="text-white mb-2" href="#">
+              </Link>
+              <Link className="text-white mb-2" to="/about">
                 <i className="fa fa-angle-right mr-2"></i>About
-              </a>
-              <a className="text-white mb-2" href="#">
+              </Link>
+              <Link  className="text-white mb-2" to="/practice">
                 <i className="fa fa-angle-right mr-2"></i>Services
-              </a>
-              <a className="text-white mb-2" href="#">
+              </Link>
+              <Link className="text-white mb-2" to="/attorneys">
                 <i className="fa fa-angle-right mr-2"></i>Attorney
-              </a>
-              <a className="text-white" href="#">
+              </Link>
+              <Link  className="text-white" to="/contact">
                 <i className="fa fa-angle-right mr-2"></i>Contact
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 mb-5">
@@ -133,8 +134,9 @@ const Footer = () => {
               Newsletter
             </h4>
             <p>
-              Rebum labore lorem dolores kasd est, et ipsum amet et at kasd,
-              ipsum sea tempor magna tempor. Accu kasd sed ea duo ipsum.
+            We invite you to connect with us and explore how <b>Lesmo Advocates </b> 
+            can serve your legal needs. Whether you require strong representation in a civil dispute 
+             or criminal defense, we are here to stand by your side.
             </p>
             <div className="w-100">
               <div className="input-group">
@@ -166,9 +168,9 @@ const Footer = () => {
           </div>
           <div className="col-md-6 text-center text-md-right">
             <p className="m-0 text-white">
-              Designed by "Leki"
-              <a className="font-weight-bold" href="https://htmlcodex.com">
-                HTML Codex
+              Designed by Leki 
+              <a className="font-weight-bold" href="https://www.linkedin.com/in/leki-emmanuel-8b7540157/" target="_blank">
+               linkedin
               </a>
             </p>
           </div>
