@@ -12,6 +12,7 @@ const Header = () => {
                     
                 </Link>
             </div>
+
             <div className="col-lg-9">
                 <div className="row bg-white border-bottom d-none d-lg-flex">
                     <div className="col-lg-7 text-left">
