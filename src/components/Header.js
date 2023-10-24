@@ -8,7 +8,8 @@ const Header = () => {
         <div className="row">
             <div className="col-lg-3 bg-secondary d-none d-lg-block">
                 <Link to="/" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <h1 className="m-0 display-4 text-primary text-uppercase">Justice</h1>
+                    <h6 className="m-0 display-4 text-primary text-uppercase">Lesmo <br/>Advocates</h6>
+                    
                 </Link>
             </div>
             <div className="col-lg-9">
