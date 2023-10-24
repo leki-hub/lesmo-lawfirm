@@ -11,6 +11,9 @@ const ServiceCarousel = () => {
     speed: 500,
     slidesToShow: 3, // Show 3 items on large screens
     slidesToScroll: 1,
+    autoplay: true, // Enable autoplay
+    autoplaySpeed: 3000,
+
     responsive: [
       {
         breakpoint: 768, // Adjust breakpoints as needed
@@ -35,9 +38,9 @@ const ServiceCarousel = () => {
             <h6 className="text-uppercase">Our Practice</h6>
             <h1 className="mb-4">Our Practice Areas</h1>
             <p>
-              Invidunt lorem justo clita. Erat lorem labore ea, justo dolor
-              lorem ipsum ut sed eos, ipsum et dolor kasd sit ea justo. Erat
-              justo sed sed diam. Ea et erat ut sed diam sea ipsum
+             At <strong>Lesmo Advoacates</strong> we specializes in a wide range of practice areas, 
+             including;Civil Law,Family Law,Business Law  and Criminal Law.
+             
             </p>
             <a href="" className="btn btn-primary mt-2">
               More Services
@@ -51,8 +54,8 @@ const ServiceCarousel = () => {
                 </div>
                 <h5 className="mb-4 px-4">Civil Law</h5>
                 <p className="m-0">
-                  Takim stet justo elitr sea eirmod vero ipsum. Sed Stet clita
-                  sit duo dolor stet at at. Tempor dolor sit ipsum
+                In matters of Civil Law, we offer a range of services including:
+                Contract Disputes,Property Disputes,Personal Injury and Employment Law.
                 </p>
               </div>
               <div className="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
@@ -61,8 +64,7 @@ const ServiceCarousel = () => {
                 </div>
                 <h5 className="mb-4 px-4">Family Law</h5>
                 <p className="m-0">
-                  Takim stet justo elitr sea eirmod vero ipsum. Sed Stet clita
-                  sit duo dolor stet at at. Tempor dolor sit ipsum
+                Providing compassionate guidance in divorce, child custody, support, and related matters in accordance with law provisions.
                 </p>
               </div>
               <div className="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
@@ -71,8 +73,7 @@ const ServiceCarousel = () => {
                 </div>
                 <h5 className="mb-4 px-4">Business Law</h5>
                 <p className="m-0">
-                  Takim stet justo elitr sea eirmod vero ipsum. Sed Stet clita
-                  sit duo dolor stet at at. Tempor dolor sit ipsum
+                Navigating the complexities of property transactions, zoning, and land use issues and business compliance issues.
                 </p>
               </div>
               <div className="d-flex flex-column align-items-center text-center bg-white rounded pt-4">
@@ -81,8 +82,8 @@ const ServiceCarousel = () => {
                 </div>
                 <h5 className="mb-4 px-4">Criminal Law</h5>
                 <p className="m-0">
-                  Takim stet justo elitr sea eirmod vero ipsum. Sed Stet clita
-                  sit duo dolor stet at at. Tempor dolor sit ipsum
+                We provide comprehensive representation in areas such as:
+                Defense Against Charges,Investigations and Pre-Trial Strategy.
                 </p>
               </div>
             </Slider>
