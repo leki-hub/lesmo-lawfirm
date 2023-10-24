@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lesmo-lawfirm/static/css/main.8d03ebe1.css",
+    "main.js": "/lesmo-lawfirm/static/js/main.c3261eab.js",
+    "static/media/slick.svg": "/lesmo-lawfirm/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/lesmo-lawfirm/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/lesmo-lawfirm/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/lesmo-lawfirm/index.html",
+    "static/media/slick.woff": "/lesmo-lawfirm/static/media/slick.295183786cd8a1389865.woff",
+    "main.8d03ebe1.css.map": "/lesmo-lawfirm/static/css/main.8d03ebe1.css.map",
+    "main.c3261eab.js.map": "/lesmo-lawfirm/static/js/main.c3261eab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d03ebe1.css",
+    "static/js/main.c3261eab.js"
+  ]
+}
