@@ -21,10 +21,6 @@ const Appointment = () => {
     setSelectedService(event.target.value);
   };
   
-
-
-
-
   return (
     <div>
       {/* <!-- Appointment Start --> */}
@@ -119,7 +115,7 @@ const Appointment = () => {
 
 
     <!-- Features Start --> */}
-      <div className="container-fluid py-5">
+      <div className="container-fluid pb-0">
         <div className="container py-5">
           <div className="row">
             <div className="col-lg-6" style={{ minHeight: "500px" }}>
@@ -145,8 +141,10 @@ const Appointment = () => {
                   <div className="ml-4">
                     <h5>Best Law Practices</h5>
                     <p className="m-0">
-                      Ipsum duo tempor elitr rebum stet magna amet kasd. Ipsum
-                      magna ipsum ipsum stet ipsum
+                     Our team of attorneys brings a diverse range of expertise,
+                     ensuring that we are equipped to handle various legal challenges. 
+                     Each member is driven by a passion for justice and a 
+                     commitment to achieving the best outcomes for our clients. 
                     </p>
                   </div>
                 </div>
@@ -160,8 +158,8 @@ const Appointment = () => {
                   <div className="ml-4">
                     <h5>Efficiency & Trust</h5>
                     <p className="m-0">
-                      Ipsum duo tempor elitr rebum stet magna amet kasd. Ipsum
-                      magna ipsum ipsum stet ipsum
+                    We believe in the power of community and actively engage in pro bono work and community outreach. 
+                    By providing legal assistance to those in need, we aim to make a positive impact on the lives of individuals and families.
                     </p>
                   </div>
                 </div>
@@ -175,8 +173,8 @@ const Appointment = () => {
                   <div className="ml-4">
                     <h5>Results You Deserve</h5>
                     <p className="m-0">
-                      Ipsum duo tempor elitr rebum stet magna amet kasd. Ipsum
-                      magna ipsum ipsum stet ipsum
+                    By providing legal assistance to those in need, we aim
+                    to make a positive impact on the lives of individuals and families.
                     </p>
                   </div>
                 </div>
